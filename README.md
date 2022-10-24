@@ -6,7 +6,7 @@ The main goal of this project is to analyze a database with data about the 2021-
 
 - Who are the most popular players?
 - Which teams have the highest salaries?
-- Is there any relationship between the player's position and variables such as the player's efficiency, salary or followers?
+- What are the differences in player's efficiency, salary and followers according to the player's position?
 - What is the average age of the players?
 - Is there any relationship between player efficiency, salary and followers?
 
@@ -34,7 +34,7 @@ The graph below shows that the team with the highest average salary is the Golde
 
 <img src="/images/graph_2.png">
 
-**3. Is there any relationship between the player's position and variables such as the player's efficiency, salary or followers?**
+**3. What are the differences in player's efficiency, salary and followers according to the player's position?**
 
 The first graph shows the average efficiency of the players according to their position. Power forwards have the best average, followed by point guards and centers.
 
