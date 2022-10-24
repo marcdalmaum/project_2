@@ -16,9 +16,9 @@ To perform the analysis, a CSV was obtained from [NBA stuffer](https://www.nbast
 
 ## WRANGLING
 
-In order to clean the three dataframes and put them together, various functions have been used, saved in the clean.py document.
+In order to clean the three dataframes and put them together, various functions have been used, saved in the [clean.py](src/clean.py) document.
 
-The rest of the code can be found in the main.ipynb document.
+The rest of the code can be found in the [main.ipynb](src/main.ipynb) document.
 
 ## ANALYSIS
 
