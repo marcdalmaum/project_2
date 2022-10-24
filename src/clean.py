@@ -48,7 +48,15 @@ def drop_clean(df_2):
     return df_2
 
 
-# ------------------------------------------- WEB SCRAPING SALARIES ------------------------------------------
+# ----------------------------------------------- WEB SCRAPING -----------------------------------------------
+
+# Web scraping
+
+def web_scrap(url):
+    res = requests.get(url)
+    html = res.content
+    soup = BeautifulSoup(html, "html.parser")
+    return soup
 
 # Web scraping names
 
@@ -73,8 +81,7 @@ def salaries(soup):
 
     return salaries_list
 
-
-# ------------------------------------------ WEB SCRAPING FOLLOWERS ------------------------------------------
+# Web scraping followers
 
 def followers(soup):
     players_f = soup.find_all("tr")
